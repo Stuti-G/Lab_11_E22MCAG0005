@@ -10,4 +10,4 @@ class DecoyDuck(Duck):
         self.quack_behavior = MuteQuack()
 
     def display(self):
-        print("I'm a duck Decoy")
+        print("I'm a Decoy Duck")
