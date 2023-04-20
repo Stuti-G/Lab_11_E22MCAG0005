@@ -3,4 +3,4 @@ from QuackBehavior import QuackBehavior
 
 class Quack(QuackBehavior):
     def quack(self):
-        print("Quack")
+        print("I can Quack")
