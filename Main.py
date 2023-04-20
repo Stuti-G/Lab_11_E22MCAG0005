@@ -7,22 +7,22 @@ class Main:
     @staticmethod
     def main():
         print("Select a duck to display its attributes:")
-        print("1. Mallard Duck")
-        print("2. Rubber Duck")
-        print("3. Red Head Duck")
-        print("4. Decoy Duck")
-        choice = input("Enter your choice: ")
+        print("a. Mallard Duck")
+        print("b. Rubber Duck")
+        print("c. Red Head Duck")
+        print("d. Decoy Duck")
+        choice = input("Enter the choice of your Duck : ")
 
-        if choice == "1":
+        if choice == "a":
             duck = MallardDuck()
-        elif choice == "2":
+        elif choice == "b":
             duck = RubberDuck()
-        elif choice == "3":
+        elif choice == "c":
             duck = RedHeadDuck()
-        elif choice == "4":
+        elif choice == "d":
             duck = DecoyDuck()
         else:
-            print("Invalid choice")
+            print("Incorrect Choice")
             return
 
         duck.display()
